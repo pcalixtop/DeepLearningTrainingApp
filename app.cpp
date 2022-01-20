@@ -4,9 +4,9 @@
 
 int main()
 {
-    int row = 3;
-    int col = 3;
-
+    constexpr int row = 10;
+    constexpr int col = 10;
+ 
 	std::vector<std::vector<float> > A(row, std::vector<float>(col, 0));
 
 	Matrix m(A);
